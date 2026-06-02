@@ -1,0 +1,21 @@
+# Ігноруємо тимчасові чекпоїнти Jupyter Notebooks
+.ipynb_checkpoints/
+
+# --- Python & Залежності ---
+# Ігноруємо кеш Python-файлів
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ігноруємо віртуальні середовища (якщо Poetry створює .venv прямо в проєкті)
+.venv/
+venv/
+ENV/
+
+# --- Налаштування IDE (VS Code / PyCharm) ---
+.vscode/
+.idea/
+
+# --- Логи та тимчасові файли ---
+*.log
+.DS_Store
