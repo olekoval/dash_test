@@ -1,0 +1,27 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.header {
+    grid-column: 1 / span 2;
+    grid-row: 1 / 2;
+}
+
+.dropdown-area {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.figure {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.tabs {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+}
